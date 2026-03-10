@@ -1,4 +1,4 @@
-# LAB-OOP-13-2026
+# LAB-PBO-13-2026
 
 Harap membaca seluruh panduan berikut sebelum memulai proses pengumpulan tugas.
 
@@ -32,7 +32,7 @@ git clone <url-repositori-hasil-fork>
 Contoh:
 
 ```bash
-git clone https://github.com/username/LAB-OOP-13-2026.git
+git clone https://github.com/username/LAB-PBO-13-2026.git
 ```
 
 ---
@@ -40,7 +40,7 @@ git clone https://github.com/username/LAB-OOP-13-2026.git
 ### 3. Masuk ke Direktori Repository
 
 ```bash
-cd LAB-OOP-13-2026
+cd LAB-PBO-13-2026
 ```
 
 ---
@@ -94,7 +94,7 @@ Contoh: `TP1_1_H071241066.java`, `TP1_2_H071241066.java`
 Struktur keseluruhan repositori yang diharapkan:
 
 ```
-LAB-OOP-13-2026/
+LAB-PBO-13-2026/
 ├── H071241066/
 │   ├── Praktikum-1/
 │   │   ├── TP1_1_H071241066.java

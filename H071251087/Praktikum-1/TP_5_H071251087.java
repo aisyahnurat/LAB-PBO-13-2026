@@ -1,0 +1,42 @@
+import java.util.InputMismatchException;
+import java.util.Scanner;
+
+public class TP_5_H071251087 {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        int[][] nums = {
+            {1, 2, 3}, 
+            {4, 5, 6}, 
+            {7, 8, 9}
+        };
+
+        try {
+            System.out.print("Input angka yang dicari: ");
+            int cari = input.nextInt();
+            
+            boolean ditemukan = false;
+
+            searchLoop: 
+            for (int i = 0; i < nums.length; i++) {
+                for (int j = 0; j < nums[i].length; j++) {
+                    if (nums[i][j] == cari) {
+                        System.out.println("Found " + cari + " at [" + i + "][" + j + "]");
+                        ditemukan = true;
+                        
+                        break searchLoop; 
+                    }
+                }
+            }
+
+            if (!ditemukan) {
+                System.out.println("Angka " + cari + " tidak ada dalam array.");
+            }
+
+        } catch (InputMismatchException e) {
+            System.out.println("Error: Input harus berupa angka bulat!");
+        } finally {
+            input.close();
+        }
+    }
+}
